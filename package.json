@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "db:init": "tsx scripts/init-db.ts",
-    "postinstall": "npm run db:init"
+    "db:init": "tsx scripts/init-db.ts"
   },
   "dependencies": {
     "dotenv": "^17.4.2",
