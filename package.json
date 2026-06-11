@@ -2,17 +2,18 @@
   "name": "ai-chat-gemini",
   "version": "0.1.0",
   "private": true,
-"scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "db:init": "tsx scripts/init-db.ts",
-  "postinstall": "npm run db:init"
-},
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "db:init": "tsx scripts/init-db.ts",
+    "postinstall": "npm run db:init"
+  },
   "dependencies": {
     "dotenv": "^17.4.2",
     "next": "16.2.9",
     "openai": "^6.42.0",
+    "pg": "^8.21.0",
     "postcss": "^8.5.15",
     "react": "19.2.4",
     "react-dom": "19.2.4"
